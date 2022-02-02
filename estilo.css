@@ -1,0 +1,189 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* empieza Div 1 */
+
+.divUno {
+    background-color: #1f2937;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8
+}
+ul{
+    list-style-type: none;
+}
+li {
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size:  18px;
+}
+
+main {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    gap: 35px;
+    align-items: center;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin-bottom: 0;
+}   
+.textMain p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0; 
+}
+.rectangulo {
+    min-width: 50%;
+}
+.imagenLateral{
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;  
+}
+.botonUno {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: inherit;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    padding: 3px;
+}
+
+/* empieza div 2 */
+
+.divDos {
+    color: #1f2937; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.tituloDivDos h2 {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0px 
+} 
+.imagenesDivDos{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    width: 70%;
+    box-sizing: border-box;
+    gap: 25px; 
+}
+.imagenMasText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenMasText img{
+    width:80%;
+    border-radius: 8px;
+    border: 4px solid #3882f6;
+    margin: 0;
+    padding: 0;
+}
+.textoImagenDivDos {
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+}
+
+/* Empieza Div 3*/
+.divTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+cite {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.autorCita{
+    padding-left: 50%;
+}
+
+/* empieza div 4*/
+
+.divCuatro {
+display: flex;
+justify-content: center;
+}
+.divContenedorCuatro {
+    background-color: #3882f6;
+    width: 70%;
+    border-radius: 10px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    gap: 10px;
+}
+.botonDivCuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-right: 40px;*/
+}
+
+.txtCuartoDiv {
+    margin: 15px 0;
+}
+
+.tituloDivCuatro {
+    margin-bottom: 0;
+}
+.textoAnexoDivCuatro {
+    margin-top: 0;
+    font-size: 14px;
+}
+.botonDos {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
+    padding: 5px;
+}
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 8px 0;
+}
+.footerTxt {
+    color: #e5e7eb;
+    font-size: 14px;
+    font-weight: lighter;
+}
